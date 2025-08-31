@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="icon" type="image/svg+xml" href="gracie.jpeg" /> -->
+  <link rel="icon" type="image/svg+xml" href="code.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -162,31 +162,31 @@
         </button>
 
         <!--Mobile Menu -->
-        <ul id="dropdownMenu"
+        <ul id="dropdownMenu" data-aos="fade-right"
           class="hidden flex flex-col absolute gap-6 right-0 z-10 w-full h-[100vh] pb-36 mt-auto bg-[#C4E1E6] shadow-md">
           <li>
-            <a href="#home"
-              class="block px-5 py-2 text-[#070707] mt-4 text-sm leading-normal hover:font-semibold hover:text-black duration-300">
+            <a href="#home" 
+               class="block px-5 py-2 text-[#070707] mt-4 text-sm leading-normal hover:font-semibold hover:text-black duration-300">
               Home
               <div class="w-full h-[0.5px] bg-[#000000]"></div>
             </a>
           </li>
           <li>
             <a href="#about"
-              class="block px-5 py-2 text-[#070707] text-sm leading-normal hover:font-semibold hover:text-black duration-300">
+               class="block px-5 py-2 text-[#070707] text-sm leading-normal hover:font-semibold hover:text-black duration-300">
               About
               <div class="w-full h-[0.5px] bg-[#000000]"></div>
             </a>
           </li>
           <li>
-            <a href="#myskill"
+            <a href="#myskill" 
               class="block px-5 py-2 text-[#070707] text-sm leading-normal hover:font-semibold hover:text-black duration-300">
               My Skill
               <div class="w-full h-[0.5px] bg-[#000000]"></div>
             </a>
           </li>
           <li>
-            <a href="#project"
+            <a href="#project" 
               class="block px-5 py-2 text-[#070707] text-sm leading-normal hover:font-semibold hover:text-black duration-300">
               Project
               <div class="w-full h-[0.5px] bg-[#000000]"></div>
@@ -194,7 +194,6 @@
           </li>
         </ul>
       </div>
-
     </div>
   </header>
 
@@ -234,8 +233,7 @@
       </p>
 
       <!-- Social Media Buttons -->
-    <div data-aos="fade-right" class="flex items-center gap-[10px] md:gap-4 mt-6">
-
+  <div data-aos="fade-right" class="flex items-center gap-[10px] md:gap-4 mt-6">
   <!-- Instagram -->
   <a href="https://www.instagram.com/wadafolklore?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram"
     class="shadow-lg 
@@ -259,10 +257,8 @@
               transition duration-300 ease-in-out 
               hover:bg-[#4D869C] hover:text-white w-[40%] sm:w-[100%] md:w-[25%] lg:w-[20%] xl:w-[20%] text-black text-[55%] sm:text-[60%] md:text-[10px] lg:text-[15px] xl:text-[100%] py-[6px] px-[4px] sm:py-[5px] sm:px-[1rem] md:py-[5px] md:px-[1rem] lg:py-[8px] lg:px-[1rem] xl:py-2 xl:px-4 rounded-full flex items-center gap-0 xl:gap-2">
     <img src="linkedid.svg" class="w-[20px] sm:w-[25px] lg:w-[25px] xl:w-[40px]" alt="icon">LinkID</a>
-
 </div>
     </div>
-
     <!-- imgWarda -->
     <div data-aos="zoom-in-up" class="hidden w-full md:w-1/2 flex justify-center md:flex">
   <div class="relative flex items-center justify-center">
@@ -276,7 +272,7 @@
 
 
   <!-- 2 -->
-     <section id="about" class="bg-[#A4CCD9] bg-gradient-to-b from-transparent to-[#C4E1E6] py-[2rem] px-[2rem] sm:py-[2rem] md:py-[2rem] lg:py-[5rem] md:px-[2rem] lg:px-[30px] xl:py-[5rem] xl:px-[50px]"  >
+    <section id="about" class="bg-[#A4CCD9] bg-gradient-to-b from-transparent to-[#C4E1E6] py-[2rem] px-[2rem] sm:py-[2rem] md:py-[2rem] lg:py-[5rem] md:px-[2rem] lg:px-[30px] xl:py-[5rem] xl:px-[50px]"  >
   <div class="container mx-auto text-center flex flex-col gap-[45px] sm:gap-[20px] md:gap-[35px] xl:gap-[60px]">
 
     <!-- Bagian Judul About Me -->
@@ -323,7 +319,7 @@
     <!-- Judul & Deskripsi -->
     <div data-aos="fade-up" class="w-full flex flex-col gap-4">
       <h2 class="text-[#000000] text-start font-semibold text-[28px] md:text-4xl xl:text-[80px] xl:leading-[6rem]">
-        <strong class="[background:linear-gradient(transparent_40%,#2899f5_40%)] px-1">My Skills</strong><br>
+        <strong data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="[background:linear-gradient(transparent_40%,#2899f5_40%)] px-1">My Skills</strong><br>
         Tools & Tech Stack
       </h2>
       <p class="text-[#000000b3] text-start text-[12px] sm:text-[12px] md:text-[12px] lg:text-base xl:text-[20px] md:leading-[18px] lg:leading-[24px] xl:leading-[2rem] leading-relaxed">
@@ -333,45 +329,73 @@
     </div>
 
     <!-- Grid Skills -->
-    <div data-aos="fade-up" class="grid grid-cols-1 md:grid-cols-3 gap-5 xl:gap-[60px]">
-      
-      <!-- Laravel -->
-       <a href="https://laravel.com/" class="no-underline">
-        <div data-aos="fade-up" class="text-center text-black py-10 xl:py-[8rem] rounded-3xl shadow-lg 
-              border-2 border-[#4D869C] bg-transparent 
-              transition duration-300 ease-in-out 
-              hover:bg-[#4D869C] hover:text-white">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" 
-         alt="Laravel Logo" 
-         class="mx-auto h-24 w-24 mb-4" />
-         <h3 class="mt-3 text-xl font-semibold">Laravel</h3>
-        </div>
-      </a>
-
+    <div data-aos="fade-up" class="grid grid-cols-1 md:grid-cols-6 gap-5 xl:gap-[60px]">
       <!-- React -->
       <a href="https://wordpress.org/" class="no-underline">
-        <div data-aos="fade-up" class="text-center text-black py-10 xl:py-[8rem] rounded-3xl shadow-lg 
-              border-2 border-[#4D869C] bg-transparent 
-              transition duration-300 ease-in-out 
-              hover:bg-[#4D869C] hover:text-white">
+        <div data-aos="fade-up" class="text-center text-black py-10 xl:py-[8rem] 
+              transition duration-300 ease-in-out">
         <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/WordPress_blue_logo.svg" 
           alt="WordPress Logo" 
           class="mx-auto h-24 w-24 mb-4" />
         <h3 class="mt-3 text-xl font-semibold">WordPress</h3>
         </div>
       </a>
+      <!-- Laravel -->
+       <a href="https://laravel.com/" class="no-underline">
+        <div data-aos="fade-up" class="text-center text-black py-10 xl:py-[8rem] 
+              transition duration-300 ease-in-out">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg" 
+         alt="Laravel Logo" 
+         class="mx-auto h-24 w-24 mb-4" />
+         <h3 class="mt-3 text-xl font-semibold">Laravel</h3>
+        </div>
+      </a>
       <!-- Tailwind -->
       <a href="https://tailwindcss.com/" class="no-underline">
-        <div data-aos="fade-up" class="text-center text-black py-10 xl:py-[8rem] rounded-3xl shadow-lg 
-              border-2 border-[#4D869C] bg-transparent 
-              transition duration-300 ease-in-out 
-              hover:bg-[#4D869C] hover:text-white">
+        <div data-aos="fade-up" class="text-center text-black py-10 xl:py-[8rem] 
+              transition duration-300 ease-in-out">
         <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" 
          alt="Tailwind Logo" 
          class="mx-auto h-24 w-24 mb-4" />
          <h3 class="mt-3 text-xl font-semibold">Tailwind CSS</h3>
         </div>
       </a>
+      <!-- JavaScript -->
+    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="no-underline">
+      <div data-aos="fade-up" 
+          class="text-center text-black py-10 xl:py-[8rem] 
+                  transition duration-300 ease-in-out">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" 
+            alt="JavaScript Logo" 
+            class="mx-auto h-24 w-24 mb-4" />
+        <h3 class="mt-3 text-xl font-semibold">JavaScript</h3>
+      </div>
+    </a>
+
+    <!-- Canva -->
+    <a href="https://www.canva.com/" class="no-underline">
+      <div data-aos="fade-up" 
+          class="text-center text-black py-10 xl:py-[8rem] 
+                  transition duration-300 ease-in-out">
+        <img src="canva.png"  
+            alt="Canva Logo" 
+            class="mx-auto h-24 w-24 mb-4" />
+        <h3 class="mt-3 text-xl font-semibold">Canva</h3>
+      </div>
+    </a>
+
+    <!-- Adobe Lightroom -->
+    <a href="https://www.adobe.com/products/photoshop-lightroom.html" class="no-underline">
+      <div data-aos="fade-up" 
+          class="text-center text-black py-10 xl:py-[8rem] 
+                  transition duration-300 ease-in-out">
+        <img src="lr.png" 
+            alt="Adobe Lightroom Logo" 
+            class="mx-auto h-24 w-24 mb-4" />
+        <h3 class="mt-3 text-xl font-semibold">Lightroom</h3>
+      </div>
+    </a>
+
   </div>
 </section>
     
@@ -394,19 +418,18 @@
      <div data-aos="fade-up" class="sm:hidden w-full flex flex-col gap-0">
       <h2 class="text-[#000000] text-start font-semibold text-3xl md:text-4xl xl:text-[80px] xl:leading-[5rem] mb-4">
       This is<br> My <strong class="[background:linear-gradient(transparent_40%,#2899f5_40%)] px-1">Project</strong></h2>
-      <p class="text-[#000000b3] text-start text-[12px] md:text-[12px] lg:text-base xl:text-[20px] md:leading-[18px] lg:leading-[24px] xl:leading-[2rem] leading-relaxed">
+      <p class="text-[#000000b3] text-start text-[11px] md:text-[12px] lg:text-base xl:text-[20px] md:leading-[18px] lg:leading-[24px] xl:leading-[2rem] leading-relaxed">
               The results of my exploration & learning during my <br>
              internship 8 months agob in the world of frontend <br> and web development.</p>
       </p>
     </div>
     <!-- Container Card (dibuat di bawah, jadi container baru) -->
   <div class="container mx-auto px-0 md:px-4 flex flex-col gap-12 mt-12">
-
   <!-- Item 1 (gambar kiri) -->
   <div data-aos="fade-up" class="flex flex-col md:flex-row items-center gap-8">
     <!-- Image -->
-    <a data-aos="zoom-in" href="https://contoh-link.com" target="_blank" 
-       class="block w-full md:w-1/3 border-2 border-gray-300 rounded-lg overflow-hidden">
+    <a data-aos="zoom-in" href="" target="_blank" 
+       class="block w-full md:w-1/3 border-2 border-[#4D869C] rounded-2xl overflow-hidden shadow-2xl">
       <img src="burumah.webp" 
            alt="Burumah" 
            class="w-full h-70 object-cover filter grayscale hover:grayscale-0 hover:scale-105 transition duration-500 cursor-pointer" />
@@ -423,9 +446,9 @@
 
   <!-- Item 2 (gambar kanan) -->
   <div data-aos="fade-up" class="flex flex-col md:flex-row-reverse items-center gap-8">
-    <a data-aos="zoom-in" href="https://contoh-link.com" target="_blank" 
-       class="block w-full md:w-1/3 border-2 border-gray-300 rounded-lg overflow-hidden">
-      <img src="restoran.png" 
+    <a data-aos="zoom-in" href="" target="_blank" 
+       class="block w-full md:w-1/3 border-2 border-[#4D869C] rounded-2xl overflow-hidden shadow-2xl">
+      <img src="restoran2.png" 
            alt="Restoran" 
            class="w-full h-70 object-cover filter grayscale hover:grayscale-0 hover:scale-105 transition duration-500 cursor-pointer" />
     </a>
@@ -441,10 +464,10 @@
   <!-- Item 1 (gambar kiri) -->
   <div data-aos="fade-up" class="flex flex-col md:flex-row items-center gap-8">
     <!-- Image -->
-    <a data-aos="zoom-in" href="https://contoh-link.com" target="_blank" 
-       class="block w-full md:w-1/3 border-2 border-gray-300 rounded-lg overflow-hidden">
+    <a data-aos="zoom-in" href="" target="_blank" 
+       class="block w-full md:w-1/3 border-2 border-[#4D869C] rounded-2xl overflow-hidden shadow-2xl">
       <img src="webtoon.png" 
-           alt="Burumah" 
+           alt="webtoon" 
            class="w-full h-70 object-cover filter grayscale hover:grayscale-0 hover:scale-105 transition duration-500 cursor-pointer" />
     </a>
     <!-- Description -->
@@ -476,42 +499,64 @@
       </p>
     </div>
 
-  <div  class="container mx-auto mt-12 md:mt-[2rem] space-y-8">
-<!-- Baris 1 : Foto besar kiri, 4 kecil kanan -->
+<div  class="container mx-auto mt-12 md:mt-[2rem] space-y-8">
 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
-  <!-- Tengah: Teks / Quote -->
   <div class="flex flex-col justify-center items-center text-center ">
-    <a href="lima.jpg">
-    <img src="lima.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/> 
-  </a>
-    
+    <img src="satu.jpg" onclick="openModal('satu.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
   </div>
   <!-- Kiri: 5 Foto -->
   <div class="grid grid-cols-2 gap-4">
-    <img src="satu.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <img src="dua.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <img src="tiga.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <img src="empat.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <!-- <img src="lima.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/> -->
+    <img src="dua.jpg" onclick="openModal('dua.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
+    <img src="tiga.jpg" onclick="openModal('tiga.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
+    <img src="lima.jpg" onclick="openModal('lima.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
+    <img src="empat.jpg" onclick="openModal('empat.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
   </div>
-
   <!-- Kanan: 5 Foto -->
   <div class="grid grid-cols-2 gap-4">
-    <img src="lima.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <img src="empat.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <img src="tiga.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <img src="dua.jpg" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/>
-    <!-- <img src="satu.jpg" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500"/> -->
+    <img src="enam.jpg" onclick="openModal('enam.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
+    <img src="tujuh.jpg" onclick="openModal('tujuh.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
+    <img src="kura.jpg" onclick="openModal('kura.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
+    <img src="aw.jpg" onclick="openModal('aw.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/>
   </div>
 </div>
-
 </div>
-
 </section>
 
+<!-- 6 -->
+ <section id="" class="w-full bg-[#A4CCD9] bg-gradient-to-b from-transparent to-[#C4E1E6] py-[1rem] px-[2rem] sm:py-[2rem] sm:px-[1rem] md:py-[2rem] md:px-6 lg:py-[5rem] lg:px-[30px] xl:py-[2rem] xl:px-[50px] ">
+  <div data-aos="fade-up" class="container mx-auto md:px-[2rem] flex flex-col gap-0 xl:gap-[50px]">
+  <div class="w-full flex flex-col gap-4 mt-[6rem]">
+      <h2 class="text-[#000000] text-center font-semibold text-[30px] md:text-4xl xl:text-[80px] leading-[2.5rem] xl:leading-[6rem]">
+        Gallery<strong class="[background:linear-gradient(transparent_40%,#2899f5_40%)] px-1">Photo</strong>
+      </h2>
+      <!-- <p class="text-[#000000b3] text-start text-[11px] sm:text-[12px] md:text-[12px] lg:text-base xl:text-[20px] md:leading-[18px] lg:leading-[24px] xl:leading-[2rem] leading-relaxed">
+        I really enjoy watching Western actors and actresses, <br>
+         and I also love listening to singers. So fun!
+      </p> -->
+    </div>
+      
+<div  class="container mx-auto mt-12 md:mt-[2rem] space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+  <img src="love.jpg" onclick="openModal('love.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
+  <img src="mysuami.jpg" onclick="openModal('mysuami.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
+  <img src="love3.jpg" onclick="openModal('love3.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
+  <img src="gracie3.jpg" onclick="openModal('gracie3.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
+  <img src="taygra.jpg" onclick="openModal('taygra.jpg')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
+  <img src="10.png" onclick="openModal('10.png')" data-aos="zoom-in" class="w-full aspect-square object-cover rounded-lg grayscale hover:grayscale-0 transition duration-500 cursor-pointer"/> 
+  </div>
+</div>
+</div>
+</section>
+
+<div id="imageModal" 
+     class="fixed inset-0 bg-black bg-opacity-70 flex justify-center items-center z-50 cursor-pointer opacity-0 transition-opacity duration-500"
+     onclick="closeModal()">
+  <img id="modalImage" src="" 
+       class="max-w-[90%] max-h-[80%] rounded-lg shadow-lg pointer-events-none transform scale-95 transition-transform duration-500">
+</div>
   </main>
 
-  <footer class="bg-[#A4CCD9] bg-gradient-to-b from-transparent to-[#C4E1E6] py-12 px-[10px] sm:py-10 md:py-10 lg:py-10 xl:py-10  w-full h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-[270px] xl:w-[100%] xl:h-[100%]">
+  <footer class="bg-[#C4E1E6] bg-gradient-to-b from-transparent to-[#A4CCD9] py-12 px-[10px] sm:py-10 md:py-10 lg:py-10 xl:py-10  w-full h-full sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-[270px] xl:w-[100%] xl:h-[100%]">
     <div class="container mx-auto flex flex-col md:flex-row justify-between px-6 md:px-8 lg:px-12 xl:px-[10px] ">
       <div class="flex flex-col gap-[12px] md:gap-[4px] lg:gap-[13px] xl:gap-[35px] xl:w-[50%] xl:h-[100%]">
         <div data-aos="fade-right"
@@ -524,12 +569,12 @@
           <p
             class="font-normal text-[#000000] text-[12px] md:text-[12px] lg:text-[15px] xl:text-[13px] leading-5 md:leading-[16px] lg:leading-[18px] xl:leading-[18px]">
             397-5 Hapjeong-dong, Mapo-gu Seoul, South Korea</p>
+            <p
+              class="font-normal text-[#000000] text-[12px] md:text-[12px] lg:text-[15px] xl:text-[13px] leading-5 md:leading-[16px] lg:leading-[18px] xl:leading-[18px]">
+              Hubungi Kontak yang Tertera</p>
           <p
             class="font-normal text-[#000000] text-[12px] md:text-[12px] lg:text-[15px] xl:text-[13px] leading-5 md:leading-[16px] lg:leading-[18px] xl:leading-[18px]">
             Email: amaliawarda411@gmail.com</p>
-          <p
-            class="font-normal text-[#000000] text-[12px] md:text-[12px] lg:text-[15px] xl:text-[13px] leading-5 md:leading-[16px] lg:leading-[18px] xl:leading-[18px]">
-            Hubungi Kontak yang Tertera</p>
         </div>
       </div>
 
@@ -672,8 +717,41 @@
         }
       });
     });
-    
   </script>
+
+  <script>
+  function openModal(src) {
+    const modal = document.getElementById("imageModal");
+    const img = document.getElementById("modalImage");
+
+    img.src = src;
+    modal.classList.remove("hidden");
+
+    // animasi fade-in
+    setTimeout(() => {
+      modal.classList.add("opacity-100");
+      modal.classList.remove("opacity-0");
+      img.classList.add("scale-100");
+      img.classList.remove("scale-95");
+    }, 10);
+  }
+
+  function closeModal() {
+    const modal = document.getElementById("imageModal");
+    const img = document.getElementById("modalImage");
+
+    // animasi fade-out
+    modal.classList.add("opacity-0");
+    modal.classList.remove("opacity-100");
+    img.classList.add("scale-95");
+    img.classList.remove("scale-100");
+
+    // tunggu transisi selesai baru hidden
+    setTimeout(() => {
+      modal.classList.add("hidden");
+    }, 500);
+  }
+</script>
 
   <!-- aos -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
